@@ -52,7 +52,7 @@ When the reader has completed this journey, they will understand how to:
 ## Deploy the App
 a. Click on the 'Deploy to Bluemix' button below.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBMDigital/CallCenterAgent)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ragdeshp/CallCenterAgent)
 
 <i>Note: If you do not want to know the deploy steps below. Jump to after step 'f'.</i>
 

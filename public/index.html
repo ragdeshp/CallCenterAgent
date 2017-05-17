@@ -1,0 +1,52 @@
+<html>
+<head>
+  <base href="/">
+  <title>Conversation Chat App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:image" content="conversation.svg" />
+  <meta property="og:title" content="Conversation Chat Simple" />
+  <meta property="og:description" content="Sample application that shows how to use the Conversation API to identify user intents" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div>
+<!--<img src="img/SBI.png" alt="" width="1000px" height="100%" />-->
+  <div id="contentParent" class="responsive-columns-wrapper">
+
+    <div id="chat-column-holder" class="responsive-column content-column">
+      <div class="chat-column">
+        <div id="scrollingChat"></div>
+        <label for="textInput" class="inputOutline">
+          <input id="textInput" class="input responsive-column"
+            placeholder="Type something" type="text"
+            onkeydown="/*globals CanvasJS */
+            ConversationPanel.inputKeyDown(event, this)">
+        </label>
+
+
+      </div>
+      </div>
+
+      <div id="chat-column-holder1" class="responsive-column content-column">
+      <div class="chat-column1">
+        <div id="scrollingChat1"></div>
+        <label for="textInput" class="inputOutline">
+          <input id="textInput1" class="input responsive-column"
+            placeholder="Type anything" type="text"
+            onkeydown="/*globals CanvasJS */
+            ConversationPanel.inputKeyDown(event, this)">
+        </label>
+      </div>
+     </div>
+     </div>
+</div>
+<script src="js/common.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/conversation.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/canvasjs.js"></script>
+
+</body>
+</html>

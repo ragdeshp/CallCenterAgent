@@ -5,7 +5,7 @@ declared-services:
     plan: standard
   documentConversion-ab:
     label: document_conversion
-    plan: standard	
+    plan: standard
   my-conversion-service:
     label: conversation
     plan: free
@@ -14,11 +14,10 @@ applications:
 - path: .
   memory: 256M
   instances: 1
-  name: CallCenterAgent
-  host: CallCenterAgent
+  name: CallCenterAgentRepo
+  host: CallCenterAgentRepo
   disk_quota: 1024M
   services:
-  - retrieve-and-rank-service
-  - documentConversion-ab
-  - my-conversion-service
- 
+  - retrieve-and-rank-service-repo
+  - documentConversion-ab-repo
+  - my-conversion-service-repo

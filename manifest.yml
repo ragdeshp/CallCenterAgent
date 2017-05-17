@@ -18,6 +18,6 @@ applications:
   host: CallCenterAgentRepo
   disk_quota: 1024M
   services:
-  - retrieve-and-rank-service-repo
-  - documentConversion-ab-repo
-  - my-conversion-service-repo
+  - retrieve-and-rank-service
+  - documentConversion-ab
+  - my-conversion-service
